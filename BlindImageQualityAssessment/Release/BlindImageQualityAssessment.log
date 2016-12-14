@@ -1,0 +1,25 @@
+﻿生成启动时间为 14/12/2016 5:47:37 PM。
+     1>项目“C:\Users\twang\Documents\Visual Studio 2013\Projects\BlindImageQualityAssessment\BlindImageQualityAssessment\BlindImageQualityAssessment.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\twang\Documents\Visual Studio 2013\Projects\BlindImageQualityAssessment\BlindImageQualityAssessment\\opencv" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BlindImageQualityAssessment.cpp brisque.cpp computescore.cpp libsvm\svm.cpp
+         BlindImageQualityAssessment.cpp
+         brisque.cpp
+     1>brisque.cpp(18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>brisque.cpp(132): warning C4305: “初始化”: 从“double”到“float”截断
+     1>brisque.cpp(133): warning C4305: “初始化”: 从“double”到“float”截断
+         computescore.cpp
+     1>computescore.cpp(71): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         svm.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\twang\Documents\Visual Studio 2013\Projects\BlindImageQualityAssessment\Release\BlindImageQualityAssessment.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\twang\Documents\Visual Studio 2013\Projects\BlindImageQualityAssessment\BlindImageQualityAssessment\\staticlib" opencv_core2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib libpng.lib libtiff.lib zlib.lib IlmImf.lib libjasper.lib libjpeg.lib comctl32.lib gdi32.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\twang\Documents\Visual Studio 2013\Projects\BlindImageQualityAssessment\Release\BlindImageQualityAssessment.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\twang\Documents\Visual Studio 2013\Projects\BlindImageQualityAssessment\Release\BlindImageQualityAssessment.lib" /MACHINE:X86 /SAFESEH Release\BlindImageQualityAssessment.obj
+         Release\brisque.obj
+         Release\computescore.obj
+         Release\svm.obj
+         正在生成代码
+         已完成代码的生成
+         BlindImageQualityAssessment.vcxproj -> C:\Users\twang\Documents\Visual Studio 2013\Projects\BlindImageQualityAssessment\Release\BlindImageQualityAssessment.exe
+     1>已完成生成项目“C:\Users\twang\Documents\Visual Studio 2013\Projects\BlindImageQualityAssessment\BlindImageQualityAssessment\BlindImageQualityAssessment.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.11
